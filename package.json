@@ -24,9 +24,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AuroraTeam/Launcher.git"
+        "url": "git+github.com/PysarievPavlo/CumunizmCraft2"
     },
-    "author": "AuroraTeam",
+    "author": "PysarievPavlo",
     "contributors": [
         "JoCat (https://github.com/JoCat)"
     ],
