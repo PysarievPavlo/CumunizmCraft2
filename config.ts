@@ -11,8 +11,8 @@ export const window = {
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://cumunizmcraft.pp.ua:1370/ws',
+    web: 'http://cumunizmcraft.pp.ua:1370',
     publicKey,
 };
 
