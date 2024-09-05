@@ -17,7 +17,7 @@ import { GameWindow } from './GameWindow';
 import { JavaManager } from './JavaManager';
 import { SettingsHelper } from '../../main/helpers/SettingsHelper';
 
-@Service([LauncherWindow, AuthorizationService, 
+@Service([LauncherWindow, AuthorizationService,
     GameWindow, JavaManager, AuthlibInjector])
 export class Starter {
     constructor(
@@ -155,10 +155,10 @@ export class Starter {
 
             if (settings.autoConnect) {
                 if (gte(clientVersion, '1.20.0')) {
-                    if ('hostname' in server) gameArgs.push('--quickPlayMultiplayer', server.hostname); 
+                    if ('hostname' in server) gameArgs.push('--quickPlayMultiplayer', server.hostname);
                     else gameArgs.push('--quickPlayMultiplayer', server.ip + ':' + server.port);
                 } else {
-                    if ('hostname' in server) gameArgs.push('--server', server.hostname); 
+                    if ('hostname' in server) gameArgs.push('--server', server.hostname);
                     else {
                         gameArgs.push('--server', server.ip);
                         gameArgs.push('--port', server.port.toString());

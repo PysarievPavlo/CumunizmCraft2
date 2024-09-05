@@ -7,7 +7,7 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'CumUnizmCraft',
 };
 
 export const api = {
@@ -16,50 +16,50 @@ export const api = {
     publicKey,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.CumUnizmCraft-launcher';
 
 export const discordRPC = {
     appId: '1214685301793103902',
     default: {
-        firstLineText: 'Тестирую лаунчер',
+        firstLineText: 'В меню лаунчера',
         secondLineText: 'Чувак, ты думал здесь что-то будет?',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Играть',
+                url: 'https://www.youtube.com/',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'CumUnizmCraft',
         smallImageText: 'Minecraft',
     },
     profile: {
-        firstLineText: 'Выбираю тестируемый профиль игры',
+        firstLineText: 'Выбираю версию игры',
         secondLineText: 'Загружаю {server}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Играть',
+                url: 'https://www.youtube.com/',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'luncher',
         smallImageText: 'Minecraft',
     },
     game: {
-        firstLineText: 'Играю на тестовом сервере',
+        firstLineText: 'Играю на сервере',
         secondLineText: 'Играю за {nickname}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Играть',
+                url: 'https://www.youtube.com/',
             },
         ],
         largeImageKey: 'logo',
         smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
+        largeImageText: 'CumUnizmCraft',
         smallImageText: 'Minecraft',
     }
 };
