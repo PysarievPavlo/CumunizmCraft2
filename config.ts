@@ -19,17 +19,17 @@ export const api = {
 export const appPath = '.CumUnizmCraft-launcher';
 
 export const discordRPC = {
-    appId: '1214685301793103902',
+    appId: '1281369735535132763',
     default: {
         firstLineText: 'В меню лаунчера',
-        secondLineText: 'Чувак, ты думал здесь что-то будет?',
+        secondLineText: 'Люблю Маму <3<3',
         buttons: [
             {
                 label: 'Играть',
-                url: 'https://www.youtube.com/',
+                url: 'http://cumunizmcraft.pp.ua/',
             },
         ],
-        largeImageKey: 'logo',
+        largeImageKey: '512',
         smallImageKey: 'logo_mc',
         largeImageText: 'CumUnizmCraft',
         smallImageText: 'Minecraft',
@@ -40,12 +40,12 @@ export const discordRPC = {
         buttons: [
             {
                 label: 'Играть',
-                url: 'https://www.youtube.com/',
+                url: 'http://cumunizmcraft.pp.ua/',
             },
         ],
-        largeImageKey: 'logo',
+        largeImageKey: '512',
         smallImageKey: 'logo_mc',
-        largeImageText: 'luncher',
+        largeImageText: 'CumUnizmCraft',
         smallImageText: 'Minecraft',
     },
     game: {
@@ -54,10 +54,10 @@ export const discordRPC = {
         buttons: [
             {
                 label: 'Играть',
-                url: 'https://www.youtube.com/',
+                url: 'http://cumunizmcraft.pp.ua/',
             },
         ],
-        largeImageKey: 'logo',
+        largeImageKey: '512',
         smallImageKey: 'logo_mc',
         largeImageText: 'CumUnizmCraft',
         smallImageText: 'Minecraft',
