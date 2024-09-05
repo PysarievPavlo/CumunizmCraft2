@@ -1,6 +1,6 @@
 {
     "name": "Launcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Launcher for Minecraft",
     "main": "out/main/index-obf.loader.js",
     "private": true,
